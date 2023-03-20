@@ -1,0 +1,88 @@
+html,
+body {
+  overflow: auto;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 900px 550px;
+}
+
+table {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  Table-Layout: fixed;
+
+}
+
+table.input {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(137, 160, 185);
+}
+
+table.display {
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  border: 1px solid rgb(137, 160, 185);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 91%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(165, 161, 161);
+  border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background: rgb(69, 92, 117);
+}
+
+input[type="reset"]:hover {
+  background: rgb(69, 92, 117);
+}
+
+button {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(69, 92, 117);
+}

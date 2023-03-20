@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <table class="input">
+                <form autocomplete="off" onsubmit="onSubmit()">
+                    <td>
+                        <div>
+                            <label for="fullName"></label>
+                            <input type="text" name="fullName" placeholder="Enter Full Name" id="fullName"
+                                maxlength="40" required>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" name="email" placeholder="Enter Email" id="email" maxlength="40"
+                                required>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="phoneNumber"></label>
+                            <input type="number" name="phoneNumber" placeholder="Enter Phone Number" id="phoneNumber"
+                                maxlength="" required>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="address"></label>
+                            <input type="text" name="address" placeholder="Enter Address" id="address" maxlength="40"
+                                required>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button-action">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </td>
+                </form>
+            </table>
+        </tr>
+        <tr>
+            <table class="display" id="displayed_info">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Email </th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Make Changes</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
